@@ -60,13 +60,43 @@
 // else{
 //     console.log("c is greater")
 // }
-const age = 16
-const license=true
-if (age >=18){
-    if(license==true){
-        console.log("you can drive")
-    }
+// const age = 16
+// const license=true
+// if (age >=18){
+//     if(license==true){
+//         console.log("you can drive")
+//     }
+// }
+// else{
+//     console.log("you cannot drive")
+// }
+// day = 3
+// switch(day){
+//     case day=1:
+//         console.log("Monday")
+//         break;
+//     case day=2:
+//         console.log("Tuesday")
+//         break;
+//     case day=3:
+//         console.log("Wednesday")
+//         break;
+// }
+const arr=["apple","banana","orange"]
+for(let name of arr){
+    console.log(name)
 }
-else{
-    console.log("you cannot drive")
+const obj={
+    name:"Samsung A50",
+    disc:"Stylish phone",
+    price:25000
+}
+for(let mobile in obj){
+    console.log(obj[mobile])
+}
+const arr2=[{name:"Samsung A50",disc:"Stylish phone",price:25000},{name:"vivo y20",disc:"budget phone",price:15000},{name:"iphone",disc:"premium phone",price:50000}]
+for(let mobile of arr2){
+    for(let details in mobile){
+        console.log(mobile[details])
+    }
 }
