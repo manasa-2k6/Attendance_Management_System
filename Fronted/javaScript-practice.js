@@ -82,21 +82,64 @@
 //         console.log("Wednesday")
 //         break;
 // }
-const arr=["apple","banana","orange"]
-for(let name of arr){
-    console.log(name)
-}
-const obj={
-    name:"Samsung A50",
-    disc:"Stylish phone",
-    price:25000
-}
-for(let mobile in obj){
-    console.log(obj[mobile])
-}
-const arr2=[{name:"Samsung A50",disc:"Stylish phone",price:25000},{name:"vivo y20",disc:"budget phone",price:15000},{name:"iphone",disc:"premium phone",price:50000}]
-for(let mobile of arr2){
-    for(let details in mobile){
-        console.log(mobile[details])
-    }
-}
+// const arr=["apple","banana","orange"]
+// for(let name of arr){
+//     console.log(name)
+// }
+// const obj={
+//     name:"Samsung A50",
+//     disc:"Stylish phone",
+//     price:25000
+// }
+// for(let mobile in obj){
+//     console.log(obj[mobile])
+// }
+// const arr2=[{name:"Samsung A50",disc:"Stylish phone",price:25000},{name:"vivo y20",disc:"budget phone",price:15000},{name:"iphone",disc:"premium phone",price:50000}]
+// for(let mobile of arr2){
+//     for(let details in mobile){
+//         console.log(mobile[details])
+//     }
+// }
+// mern()
+// function mern(){
+//     console.log("Welcome to Marn Stack classes")
+// }
+// mern()
+
+// const frontend=function(){
+//     console.log("lets start Frontend")
+// }
+// frontend()
+
+// const backend = ()=>{
+//     console.log("lets start Backend")
+// }
+// backend()
+
+// const frontend=function(){
+//     console.log("You are Learning Frontend")
+//     return "Frontend Completed"
+// }
+// const a=frontend()
+// console.log(a)
+
+// const backend = ()=>"Backend Completed"
+// b=backend()
+// console.log(b)
+
+// const higherorderfunction = (a)=>{
+//     console.log("You are in HDF")
+//     a()
+// }
+// const callbackfunction = ()=>{
+//     console.log("I am in callback function")
+// }
+// higherorderfunction(callbackfunction)
+
+const arr=[20,15,30,56]
+// const arr2=arr.map(function(num){
+//     return num*2
+// })
+// console.log(arr2)
+const arr2=arr.map((num)=>num*2)
+console.log(arr2)
