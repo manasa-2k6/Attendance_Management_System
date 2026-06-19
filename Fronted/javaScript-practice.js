@@ -48,15 +48,25 @@
 //     console.log("Not Eligible for voting")
 // }
 //greater among three numbers
-const a=10
-const b=20
-const c=15
-if (a>b && a>c){
-    console.log("a is grater")
-}
-else if(b>a && b>c){
-    console.log("b is greater")
+// const a=10
+// const b=20
+// const c=15
+// if (a>b && a>c){
+//     console.log("a is grater")
+// }
+// else if(b>a && b>c){
+//     console.log("b is greater")
+// }
+// else{
+//     console.log("c is greater")
+// }
+const age = 16
+const license=true
+if (age >=18){
+    if(license==true){
+        console.log("you can drive")
+    }
 }
 else{
-    console.log("c is greater")
+    console.log("you cannot drive")
 }
