@@ -322,3 +322,4 @@ console.log(highestpackage)
 
 const tenlpa=placedstudentnames.filter(student=>student.package>=10)
 console.log(tenlpa)
+tenlpa.map(student=>console.log(student.name))
