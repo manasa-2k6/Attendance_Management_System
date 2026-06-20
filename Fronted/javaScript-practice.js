@@ -136,10 +136,89 @@
 // }
 // higherorderfunction(callbackfunction)
 
-const arr=[20,15,30,56]
+//const arr=[20,15,30,56]
 // const arr2=arr.map(function(num){
 //     return num*2
 // })
 // console.log(arr2)
-const arr2=arr.map((num)=>num*2)
-console.log(arr2)
+//const arr2=arr.map((num)=>num*2)
+// const arr2=arr.map((num)=>console.log(num))
+// console.log(arr2)
+
+
+// const arr=[10,5,500,602,45,[5,3,25]]
+// console.log(arr.push(6))
+// console.log(arr)
+// console.log(arr.pop())
+// console.log(arr)
+// console.log(arr.unshift(15))
+// console.log(arr)
+// console.log(arr.shift())
+// const arr2=[10,"karthik",500,"sathi babu"]
+// console.log(arr2.splice(2,1))
+// console.log(arr2)
+// console.log(arr2.splice(0,2,"sam"))
+// console.log(arr2)
+// console.log(arr2.splice(1))
+
+// const arr3=["arun","vamshi","anusha"]
+// console.log(arr3.indexOf("Anusha"))
+// console.log(arr3.includes("Anusha"))
+
+//find()
+// const arr=[
+//     {
+//         rollno: "25AG1A6630",
+//         name:"Manasa",
+//         department:"CSM"
+//     },
+//      {
+//         rollno: "25AG1A6655",
+//         name:"Puli",
+//         department:"CSM"
+//     },
+//      {
+//         rollno: "25AG1A6659",
+//         name:"Chaturya",
+//         department:"CSM"
+//     },
+//     {
+//         rollno: "25AG1A0519",
+//         name:"Thanishka",
+//         department:"CSE"
+//     },
+//      {
+//         rollno: "25AG1A66D0",
+//         name:"Manisha",
+//         department:"CSD"
+//     }
+    
+// ]
+// const studentreport=arr.find(
+//     s=>s.name ==="Puli"
+// )
+// console.log(studentreport)
+
+// arr.forEach(
+//    student =>{
+//         console.log(student)
+//     }
+//     ) //for each method is used to iterae each element from an array
+
+// const modarr=arr.map(
+//     student=>console.log(student.name)
+// )
+// console.log(modarr) 
+
+// const arrx=[2,50,18]
+// const modarrx = arrx.map(element => element+5)
+// console.log(modarrx) 
+
+// const filter_arr=arr.filter(
+//     student=>student.department === "CSD"
+// )
+// console.log(filter_arr.length)
+
+//reduce()
+
+const marks=[25,75,50,30,82,65]
