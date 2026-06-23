@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
     return (
         <div>
             <div className="list-group mt-3">
-                <a href="#" class="list-group-item list-group-item-action active">Dashboard</a>
-                <a href="Student.html" class="list-group-item list-group-item-action">Students</a>
-                <a href="Attendance.html" class="list-group-item list-group-item-action">Attendance</a>
-                <a href="Reports.html" class="list-group-item list-group-item-action">Reports</a>
+                <Link to="/" className="list-group-item">Dashboard</Link>
+                <Link to="/students" className="list-group-item">Students</Link>
+                <Link to="/attendance" className="list-group-item">Attendance</Link>
+                <Link to="/reports" className="list-group-item">Reports</Link>
             </div>
         </div>
     )

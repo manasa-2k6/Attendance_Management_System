@@ -1,11 +1,11 @@
 import React from 'react'
 
-function DashboardCard(props) {
+function DashboardCard({ heading, count }) {
     return (
         <div className="card">
             <div className="card-body">
-                <h5 class="card-text text-center">{props.heading}</h5>
-                <h5 class="card-text text-center">{props.count}</h5>
+                <h5 className="card-text text-center">{heading}</h5>
+                <h5 className="card-text text-center">{count}</h5>
             </div>
         </div>
     )
